@@ -11,7 +11,7 @@ interface Schema {
   [key: string]: string;
 }
 
-// we first check if the schemaObject attribute has the value of 'array' or 'object' and we would then 
+// we first check if the schemaObject attribute has the value of 'array' and we would then 
 // evaulate if the mapped value from the objectToValidate is actually an Array.
 // if not we can use typeof to match the rest of the mapped values and their types 
 // except for Array objects typeof will result in true therefor the extra check for 'object'.
